@@ -37,7 +37,7 @@ public class UserServiceTest {
 	@Test
 	public void creatUser_Successfully_In_Users_Table() throws Exception{
 		Users newUser = new Users();
-		newUser.setFirstName("manarooo");
+		newUser.setFirstName("manarooooo");
 		newUser.setLastName("anan");
 		newUser.setEmail("manar@gmail.com");
 		newUser.setPhoneNumber("962799999999");
