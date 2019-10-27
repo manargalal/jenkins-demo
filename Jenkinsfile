@@ -4,7 +4,7 @@ pipeline{
 		stage('Build'){
 			steps{
 				bat 'mvn clean package'
-					bat 'docker build . -t myfirstJenkinsDocker'
+					bat 'docker build . -t myfirstjenkinsdocker'
 
 			}
 		}
